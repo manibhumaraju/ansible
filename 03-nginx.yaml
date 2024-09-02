@@ -6,3 +6,8 @@
     ansible.builtin.package: #heterogenous module that can work for all distributors
       name: nginx
       state: present
+
+  - name: nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
