@@ -1,5 +1,6 @@
 - name: vars from inventory
   hosts: web
+  vars_inventory:
   tasks:
   - name: Print Course Detailes
   ansible.builtin.debug:
