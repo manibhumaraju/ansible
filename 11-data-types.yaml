@@ -23,5 +23,8 @@
   - name: print the course information
     ansible.builtin.debug:
         msg: "Hi, I am learning {{ course }}, with duration: {{ duration }}, topics are: {{ topics }}, ans live: {{ live }}, tools are: {{ tools }}"
+
+
+        # using command "" ansible-playbook -i inventory.ini 11-data-types.yaml ""
     
 
