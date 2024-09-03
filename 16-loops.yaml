@@ -3,7 +3,7 @@
   connection: local
   tasks: 
   - name: print names
-    ansible.bultin.debug:
+    ansible.builtin.debug:
        msg: "Hello {{ item }} "
     loop:
     - ramesh
