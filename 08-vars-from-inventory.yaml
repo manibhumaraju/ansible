@@ -1,6 +1,5 @@
 - name: variables to print
   hosts: web
-  vars_inventory:
   tasks:
   - name: Print the information
   ansible.builtin.debug:
