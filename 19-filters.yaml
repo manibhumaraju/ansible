@@ -48,4 +48,10 @@
        - { "key": "trainer","value": "Siva" }
     ansible.builtin.debug:
         msg: "{{ course | items2dict }}"
+
+  - name: check ip address
+    vars: 
+      myip: "356.168.1.1"
+    ansible.builtin.debug:
+       msg: "{{ myip | ansible.utils.ip4 }}"
     
