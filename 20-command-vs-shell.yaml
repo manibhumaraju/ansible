@@ -1,0 +1,15 @@
+- name: command vs shell
+  hosts: local
+  connection: local
+  tasks: 
+  - name: exicute the command
+    ansible.builtin.shell: ls -ltr > /tmp/output.text  # login to the server and exicute command inside  
+      # command module, just issues command
+
+  - name: check the process
+    ansible.builtin.shell: ps -ef | grep ssh
+    register: output
+
+  - name: check the process
+    ansible.builtin.command: ps -ef | grep ssh
+    register: output
