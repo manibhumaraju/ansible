@@ -4,4 +4,4 @@
   tasks:
   - name: print the defualt variables
     ansible.builtin.debug:
-        msg: "Hello {{ course | defualt (Ansible) }}"
+        msg: "Hello {{ course | defualt ('Ansible') }}"
