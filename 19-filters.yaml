@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   tasks:
-  - name: print the defualt variables
+  - name: print the default variables
     ansible.builtin.debug:
-        msg: "Hello {{ course | defualt('Ansible') }}"
+        msg: "Hello {{ course | default('Ansible') }}"
