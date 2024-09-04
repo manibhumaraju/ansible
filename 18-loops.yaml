@@ -1,4 +1,4 @@
-- name:
+- name:loops demo
   hosts: web
   become: yes
   tasks:
