@@ -3,7 +3,7 @@
   connection: local # for local hosts
   vars:
     course: "DevOps with AWS" #string
-    duration: 120hrs #number
+    duration: 120hrs #number 
     topics:  #list
     - Linux
     - Shell
