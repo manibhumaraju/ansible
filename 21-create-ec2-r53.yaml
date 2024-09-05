@@ -22,3 +22,8 @@
   - name: print the output
     ansible.builtin.debug:
         msg: "{{ ec2_instances }}"
+
+  # - name: create route53 records
+  #   amazon.aws.route53:
+  #      state: present
+  #      zone: manibhumaraju.online
