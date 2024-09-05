@@ -1,7 +1,7 @@
 - name: variables to print
   hosts: web
   # vars:
-  #   COURSE: "DevOps with AWS from PLAY level"
+  #   COURSE: "DevOps with AWS from PLAY level" 
   #   DURATION: "120HRS"
   #   TRAINER: "Siva"
   # vars_files:
