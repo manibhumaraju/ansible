@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: check user exit or not
-    ansible.builtin.command: id expence
+    ansible.builtin.command: id expence 
     register: USER #here USER is a variable that gets output from above command 
     ignore_errors: true
 
