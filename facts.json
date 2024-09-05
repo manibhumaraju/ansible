@@ -4,7 +4,7 @@
     "distribution_version": "9.3",
     "distribution_major_version": "9",
     "distribution_file_path": "/etc/redhat-release",
-    "distribution_file_variety": "RedHat",
+    "distribution_file_variety": "RedHat", 
     "distribution_file_parsed": true,
     "distribution_file_search_string": "Red Hat",
     "os_family": "RedHat",
