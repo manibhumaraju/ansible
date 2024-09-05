@@ -1,6 +1,6 @@
 - name: variables to print
   hosts: web
-  vars: #play level,al tasks in this play have Access to this 
+  vars: #play level,al tasks in this play have Access to this  
     COURSE: "DevOps with Aws"
     DURATION: "120HRS"
     TRAINER: "Siva"
