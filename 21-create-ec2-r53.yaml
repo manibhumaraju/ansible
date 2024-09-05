@@ -11,6 +11,11 @@
      - frontend
      zone: "manibhumaraju.online"
   tasks:
+  - name: ansible to install boto3 and botocore
+    ansible.builtin.pip:
+       name:
+       - boto3
+       - botocore
   - name: create ec2 instances
     amazon.aws.ec2_instance:
       name: "{{ item }}"
