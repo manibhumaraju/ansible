@@ -8,7 +8,7 @@
      instances:
      - mysql
      - backend
-     - frontend"
+     - frontend
      zone: "manibhumaraju.online"
   tasks:
   - name: create ec2 instances
