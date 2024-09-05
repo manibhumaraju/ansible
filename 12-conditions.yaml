@@ -4,7 +4,7 @@
   vars_prompt: 
   - name: my_number
     prompt: Please enter the number
-    private: false #not confidential
+    private: false #not confidential 
   # vars:
   #   my_number: 139 #number
   tasks:
